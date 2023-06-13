@@ -20,21 +20,17 @@ const Profile = () => {
                        style={{
                            color: "antiquewhite"
                     }}>
-                        My name is Jinming, but I often just go by Jimmy. To give a quick summary of myself, I'm the guy in
+                        My name is Jinming, but I often just go by Jimmy. To give a quick intro, I'm the guy in
                         your class that can't sit still. I am determined and gritty. I thrive on pushing boundaries as I hate
-                        being confined to the conventional.
-                        I love photography, chess, and learning new languages.
-
+                        being confined to the conventional. I love photography, chess, and learning new languages.
                     </p>
                 <br/>
                 <p className={styles.profileText}
                    style={{
                        color: "antiquewhite"
                    }}>
-                    Traveling is another passion of mine, especially off the beaten path. It affords me the chance to
-                    gain experiences I wouldn't ordinarily have and offers fresh perspectives on life. It mirrors my
-                    approach to software development - I'm not afraid to venture into unfamiliar territory if it means
-                    discovering a more efficient solution or innovative approach.
+                    I love travelling, especially to places unfamiliar. It allows me to see fresh perspectives on life. I'm never afraid to take
+                       risks and to trying new things even if I don't succeed the first time. I am a firm believer of fail fast and fail often.
                 </p>
                 <br/>
                 <p className={styles.profileText}
@@ -45,7 +41,7 @@ const Profile = () => {
                     writing good code is much like writing good poetry. Because of this, I take pride in writing concise
                     and fast code. As someone who is always curious, I enjoy learning new technology that enable me to
                     create products that will empower and provide meaningful impact. Some things that I have
-                    learned by myself are Swift and SwiftUI for iOS development. As a matter of fact, this website was
+                    learned by myself are Swift, SwiftUI, and Core Data for iOS development. As a matter of fact, this website was
                      a personal challenge to learn React.
                 </p>
                 <br/>
@@ -53,9 +49,8 @@ const Profile = () => {
                    style={{
                        color: "antiquewhite",
                    }}>
-                    As a full-stack software engineer, I'm versatile. From designing databases and writing serverless
-                    functions with AWS Lambdas, to crafting backend servers in Express.JS or Flask, and creating
-                    user-friendly front-end applications, I can do it all.
+                    As a full-stack software engineer, I can design databases, craft backend servers in Express.JS or Flask, and creat
+                    user-friendly front-end applications for web and mobile. I am quite versatile.
                 </p>
                 <br/>
                 <p className={styles.profileText}
