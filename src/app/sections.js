@@ -85,7 +85,11 @@ export function Welcome(){
                     <span style={{ fontSize: "80px", color: "#fafbfc" }}>Bienvenido </span>
                 </Animator>
             </ScrollPage>
-
+            <ScrollPage>
+                <Animator animation={ZoomInScrollOut}>
+                    <span style={{ fontSize: "80px", color: "#fafbfc" }}>Bem-vindo </span>
+                </Animator>
+            </ScrollPage>
             <ScrollPage>
                 <Animator animation={ZoomInScrollOut}>
                     <span style={{ fontSize: "40px", color: "#fafbfc" }}>Bienvenue</span>
@@ -100,18 +104,9 @@ export function About() {
 
 
     return(
-    <div className={styles.experienceSection}>
-        <h1 style={{paddingBottom: "50px"}}>About Me</h1>
+    <div>
         <Profile/>
     </div>
-    );
-}
-
-export function Skills() {
-    return(
-        <div className={styles.experienceSection}>
-            <h1>Skills</h1>
-        </div>
     );
 }
 
@@ -181,8 +176,9 @@ export function Projects() {
 
 export function Blog() {
     return(
-        <div className={styles.experienceSection}>
-            <h1>Blog</h1>
+        <div className={styles.blogSection}>
+            <h1 className={styles.blogTitle}>Blog</h1>
+            <a href="https://jinmingliang.blogspot.com" target="_blank" rel="noopener noreferrer" className={styles.blogLink}>Visit my blog</a>
         </div>
     );
 }

@@ -45,11 +45,11 @@
 }
 
 .experienceSection h1{
-  color: #fafbfc;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
-  font-size: 3em;
+  font-size: 100px;
+  margin-bottom: 0.5em;
+  color: white;
+  padding-left: 25px;
+  width: 100%;
 }
 
 .experienceContainer {
@@ -65,11 +65,11 @@
 }
 
 .projectSection h1 {
-  color: #fafbfc;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
-  font-size: 3em;
+  font-size: 100px;
+  margin-bottom: 0.5em;
+  color: white;
+  padding-left: 25px;
+  width: 100%;
 }
 
 .projectEntry{
@@ -89,6 +89,8 @@
   text-align: justify;
   font-size: medium;
   padding-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 
@@ -185,28 +187,77 @@
 
 .profile {
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.profileContent {
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
 }
 
-.profile-content {
-  flex: 1;
-  padding-right: 20px;
-}
-
-.profile-title {
+.profileTitle {
   font-size: 100px;
   margin-bottom: 0.5em;
-  color: bisque;
+  color: white;
+  padding-left: 25px;
+  width: 100%;
 }
 
-.profile-text {
+.profileText {
+  flex: 1;
   font-size: 1.2em;
   line-height: 1.5;
+  padding-right: 20px;
+  padding-left: 25px;
+  color: white;
 }
 
-.profile-image {
-  width: 50%;
-  height: 50%;
+.profileImage {
+  flex: 1;
+  max-width: 50%;
+  object-fit: contain;
+  padding-right: 10px;
 }
+
+
+
+.blogSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+  margin: 20px;
+}
+
+.blogTitle {
+  color: #333;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.blogLink {
+  color: #4285f4;
+  text-decoration: none;
+  font-size: 1.2em;
+  border: 2px solid #4285f4;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.blogLink:hover {
+  background-color: #4285f4;
+  color: #fff;
+}
+
 
 
